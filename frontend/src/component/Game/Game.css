@@ -1,0 +1,119 @@
+.width-container {
+  width: 1040px;
+}
+
+.slide-width {
+  width: 400px;
+}
+
+.DiceCSS {
+  line-height: 1.2;
+  text-align: start;
+  font-size: 0.9em;
+  padding: 0.5em;
+  }
+  
+.DiceCSS h5 {
+  display: block;
+  font-size: 0.83em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.DiceCSS h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.DiceCSS p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.DiceCSS li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  list-style-type: disc;
+}
+
+.DiceCSS a{
+  color: #666;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.DiceCSS a:hover {
+  color: #666;
+}
+
+.DiceCSS h6 {
+  display: block;
+  font-size: 0.67em;
+  margin-block-start: 2.33em;
+  margin-block-end: 2.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.DiceCSS th, td {
+  text-align: left;
+  padding: 0.5em;
+  border: 1px solid #fff;
+}
+
+table.data {
+  max-width:960px;
+  font-family: 'Ubuntu Mono';
+  border-collapse:collapse;
+  margin:1em auto;
+  font-size: 0.80em;
+}
+
+table, td{
+	font:100% Arial, Helvetica, sans-serif; 
+}
+
+.betaddress {
+  min-width: 150px;
+}
+
+th, td{text-align:left;padding:.5em;border:1px solid #fff;}
+th{background:#328aa4 url(/web/20130128231605im_/http://satoshidice.com/tablecloth/tr_back.gif) repeat-x;color:#ffffff;}
+td{}
+
+/* tablecloth styles */
+
+tr.even td{background:#f8fbfc;}
+tr.odd td{background:#e5f1f4;}
+
+th.over, tr.even th.over, tr.odd th.over{background:#4a98af; color:#ffffff;}
+th.down, tr.even th.down, tr.odd th.down{background:#ce9017; color:#ffffff;}
+th.selected, tr.even th.selected, tr.odd th.selected{}
+
+td.over, tr.even td.over, tr.odd td.over{background:#fbe6bc;}
+td.down, tr.even td.down, tr.odd td.down{background:#ce9017;color:#fff;}
+td.selected, tr.even td.selected, tr.odd td.selected{background:#fbba3f;color:#555;}
+
+/* use this if you want to apply different styleing to empty table cells*/
+td.empty, tr.odd td.empty, tr.even td.empty{background:#fff;}
+
+.box {
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+.selector {
+  word-wrap: break-word; /* IE 5.5-7 */
+  white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
+  white-space: pre-wrap; /* current browsers */
+}

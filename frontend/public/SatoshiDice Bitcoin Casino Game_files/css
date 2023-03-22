@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Droid Sans Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans Mono'), local('DroidSansMono'), url(https://web.archive.org/web/20130328115458im_/http://themes.googleusercontent.com/static/fonts/droidsansmono/v4/ns-m2xQYezAtqh7ai59hJYW_AySPyikQrZReizgrnuw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Mono'), local('PTMono-Regular'), url(https://web.archive.org/web/20130328115458im_/http://themes.googleusercontent.com/static/fonts/ptmono/v1/ePgFvqOCiLHhAQZDY_ploA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu Mono'), local('UbuntuMono-Regular'), url(https://web.archive.org/web/20130328115458im_/http://themes.googleusercontent.com/static/fonts/ubuntumono/v3/ViZhet7Ak-LRXZMXzuAfkZ0EAVxt0G0biEntp43Qt6E.ttf) format('truetype');
+}
+
+/*
+     FILE ARCHIVED ON 11:54:58 Mar 28, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:05:24 Feb 02, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 71.581
+  exclusion.robots: 0.182
+  exclusion.robots.policy: 0.165
+  cdx.remote: 0.129
+  esindex: 0.015
+  LoadShardBlock: 37.468 (3)
+  PetaboxLoader3.datanode: 43.193 (4)
+  CDXLines.iter: 22.963 (3)
+  load_resource: 347.043
+  PetaboxLoader3.resolve: 40.327
+*/

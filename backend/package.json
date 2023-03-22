@@ -1,0 +1,47 @@
+{
+  "name": "functions",
+  "version": "1.0.0",
+  "description": "Cloud Functions for Firebase",
+  "main": "app.js",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.3",
+    "body-parser": "^1.19.0",
+    "bolt11": "^1.4.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "firebase-tools": "^11.22.0",
+    "fs": "^0.0.1-security",
+    "grpc": "^1.24.2",
+    "knex": "^2.4.2",
+    "lightning-backends": "^1.5.1",
+    "ln-service": "^54.9.0",
+    "lnpay": "^1.1.4",
+    "lnurl": "^0.24.2",
+    "morgan": "^1.9.1",
+    "pg": "^8.9.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0",
+    "nodemon": "^1.19.1"
+  }
+}

@@ -1,0 +1,65 @@
+/* 
+
+	TableCloth	
+	by Alen Grakalic, brought to you by cssglobe.com
+	
+*/
+
+/* general styles */
+
+table, td{
+	font:100% Arial, Helvetica, sans-serif; 
+}
+table.data {
+  max-width:960px;
+  border-collapse:collapse;
+  margin:1em 0;
+  font-size: 0.85em;
+  
+}
+
+.betaddress {
+  min-width: 150px;
+}
+
+th, td{text-align:left;padding:.5em;border:1px solid #fff;}
+th{background:#328aa4 url(/web/20130128231605im_/http://satoshidice.com/tablecloth/tr_back.gif) repeat-x;color:#ffffff;}
+td{background:#ffffff;}
+
+/* tablecloth styles */
+
+tr.even td{background:#f8fbfc;}
+tr.odd td{background:#e5f1f4;}
+
+th.over, tr.even th.over, tr.odd th.over{background:#4a98af; color:#ffffff;}
+th.down, tr.even th.down, tr.odd th.down{background:#ce9017; color:#ffffff;}
+th.selected, tr.even th.selected, tr.odd th.selected{}
+
+td.over, tr.even td.over, tr.odd td.over{background:#fbe6bc;}
+td.down, tr.even td.down, tr.odd td.down{background:#ce9017;color:#fff;}
+td.selected, tr.even td.selected, tr.odd td.selected{background:#fbba3f;color:#555;}
+
+/* use this if you want to apply different styleing to empty table cells*/
+td.empty, tr.odd td.empty, tr.even td.empty{background:#fff;}
+
+/*
+     FILE ARCHIVED ON 23:16:05 Jan 28, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:05:24 Feb 02, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 104.026
+  exclusion.robots: 0.143
+  exclusion.robots.policy: 0.131
+  cdx.remote: 0.072
+  esindex: 0.011
+  LoadShardBlock: 72.194 (3)
+  PetaboxLoader3.datanode: 62.97 (4)
+  CDXLines.iter: 21.881 (3)
+  PetaboxLoader3.resolve: 59.947 (2)
+  load_resource: 76.883
+*/
